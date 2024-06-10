@@ -17,8 +17,8 @@ vidServer.use(cors());
 vidServer.use(middleware);
 vidServer.use(router);
 
-const PORT = 8001;
+const PORT = 4000;
 vidServer.listen(PORT, () => {
-  console.log(`___video server started at port number ${PORT}`);
+  console.log(` server started at port number ${PORT}`);
 });
 
